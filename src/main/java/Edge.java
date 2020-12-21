@@ -8,6 +8,12 @@ public class Edge {
         this.endNode = endNode;
         this.weight = weight;
     }
+    
+    public Edge(String startNode, String endNode) {
+        this.startNode = startNode;
+        this.endNode = endNode;
+        this.weight = -1;
+    }
 
     public String getStartNode() {
         return startNode;
